@@ -1,0 +1,24 @@
+:root {
+    --white-color: #fff;
+    --primary-color: #ED7200;
+    --btn-color: #FF000A;
+    --text-primary-color: #FA7D09;
+    --text-color:#23221F;
+}
+
+.primary-btn {
+    background-color: var(--btn-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white-color);
+    font-family: "Rowdies";
+    border: none;
+    box-shadow: #BD000B 0px 8px;
+    filter: drop-shadow(0px 4px 8px rgba(165, 15, 15, 0.45));
+    cursor: pointer;
+}
+
+* {
+    font-family: "Montserrat";
+}

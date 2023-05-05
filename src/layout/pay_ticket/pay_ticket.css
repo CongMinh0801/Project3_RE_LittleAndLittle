@@ -1,0 +1,217 @@
+.pay-ticket__block2,
+.pay-ticket__block1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FDE8B3;
+    border-radius: 36px;
+    box-shadow: 0px 16px #FFCA7B;
+}
+
+.pay-ticket__block2-container, 
+.pay-ticket__block1-container {
+    position: relative;
+    background-color: #FFF6D4;
+    border: 3px dashed #FFB489;
+    border-radius: 32px;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.pay-ticket {
+    display: flex;
+    position: relative;
+    margin-top: 200px;
+}
+
+.pay-ticket__block1 {
+    width: 950px;
+    height: 640px;
+    margin-right:24px;
+}
+
+.pay-ticket__block2 {
+    width: 540px;
+    height: 640px;
+}
+
+.pay-ticket__block1-container {
+    width: 926px;
+    height: 616px;
+    padding: 56px 118px;
+}
+
+.pay-ticket__block2-container {
+    width: 516px;
+    height: 616px;
+    padding: 56px 52px;
+}
+
+
+.pay-ticket__middle {
+    position: absolute;
+    width: 24px;
+    height: 576px;
+    background-color: #FDE8B3;
+    display: flex;
+    align-items: center;
+    top: 32px;
+    left: 950px;
+}
+
+.pay-ticket__middle span {
+    display: block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #FFC226;
+    margin: 12px 0;
+}
+.pay-ticket__middle div:nth-child(3),
+.pay-ticket__middle div:nth-child(2) {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-color: #FFC226;
+    border-radius: 50%;
+    left: 0;
+}
+
+.pay-ticket__middle div:nth-child(2) {
+    top: -12px;
+}
+
+.pay-ticket__middle div:nth-child(3) {
+    bottom: -12px;
+}
+
+.pay-ticket__block1-container-title-tag {
+    position: absolute;
+    top: -32px;
+    left: 118px;
+}
+
+.pay-ticket__block2-container-title-tag{
+    position: absolute;
+    top: -32px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.pay-ticket__block1-container-title-tag img,
+.pay-ticket__block2-container-title-tag img{
+    width: 380px;
+    height: 72px;
+}
+
+.pay-ticket__block1-container-title-tag p,
+.pay-ticket__block2-container-title-tag p{
+    font-size: 26px;
+    font-weight: 700;
+    font-family: "Rowdies";
+    margin: 0;
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: var(--white-color);
+}
+
+.pay-ticket__container-row {
+    width: 100%;
+    margin-top: 16px;
+}
+
+.pay-ticket__container-col:nth-child(2) {
+    width: 18%;
+}
+
+.pay-ticket__container-col:nth-child(1),
+.pay-ticket__container-col:nth-child(3) {
+    width: 32%;
+}
+
+.pay-ticket__container-row-input {
+    width: 100%;
+    height: 56px;
+    box-sizing: border-box;
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+    border-radius: 16px;
+    outline: none;
+    border: none;
+    padding: 0 24px;
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+.pay-ticket__container-row p{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 30px;
+}
+
+.pay-ticket__container-row_need_flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pay-ticket__container-row_have_btn {
+    
+}
+
+.pay-ticket__container-row_have_btn div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pay-ticket__container-row_have_btn button {
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 8px #FFBE5C;
+    background-color: #FFDE32;
+    border: none;
+    border-radius: 12px;
+    padding: 0;
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+.pay-ticket__container-row-calendar-icon {
+    color: var(--white-color);
+}
+
+.pay-ticket__container-row_have_btn input {
+    width: 80%;
+}
+
+#pay-ticket__container-row-cvv-input {
+    width: 30%;
+}
+
+
+#pay-ticket__container-row-contact-info-input {
+    width: 60%;
+}
+#pay-ticket__container-row-phone-number-input {
+    width: 32%;
+}
+#pay-ticket__container-row-email-input {
+    width: 60%;
+}
+
+
+.pay-ticket__container-btn {
+    height: 60px;
+    width: 368px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 32px;
+    font-size: 30px;
+    font-weight: 700;
+    border-radius: 16px;
+}

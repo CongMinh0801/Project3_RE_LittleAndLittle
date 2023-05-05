@@ -1,0 +1,31 @@
+.pay-fail {
+    width: 472px;
+    height: 262px;
+    position: relative;
+    border-radius: 32px;
+    overflow: hidden;
+    background-color: var(--white-color);
+}
+
+.pay-fail__header {
+    height: 84px;
+    background-color: #FF8B15;
+}
+
+.pay-fail__message {
+    box-sizing: border-box;
+    padding: 0 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.pay-fail img {
+    position: absolute;
+    width: 132px;
+    height: 132px;
+    top: -66px;
+    left: 50%;
+    transform: translateX(-50%);
+}
