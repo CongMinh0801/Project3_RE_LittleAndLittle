@@ -10,11 +10,14 @@ import { PayTicketItem } from './layout/pay_ticket_item/pay_ticket_item';
 import { PayTicket } from './layout/pay_ticket/pay_ticket';
 import { BookTicket } from './layout/book_ticket/book_ticket';
 import { Event } from './layout/event/event';
+import { ViewContact } from './view/view_contact/view_contact';
+import { ViewEvent } from './view/view_event/view_event';
+import { ViewHome } from './view/view_home/view_home';
 
 function App() {
   return (
     <div className="App">
-      <Event EventName='Sự kiện 1' EventPlace='Đầm sen Pack' DateStart='08/01/2002' DateEnd='08/01/2102' EventPrice='260.000'/>
+      <ViewHome/>
     </div>
   );
 }

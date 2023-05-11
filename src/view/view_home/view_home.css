@@ -1,0 +1,94 @@
+.view-home {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: radial-gradient(97.91% 60.14% at 50% 50%, #FFDB7E 0%, #FF7A00 100%);
+}
+
+.view-home__container {
+    background-image: url("../../assets/img/bg.png");
+    background-size: cover;
+    width: 1840px;
+    height: 962px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.view-home__container-title {
+    position: absolute;
+    top:100px;
+    left: 360px;
+    color: var(--white-color);
+    font-family: "Rowdies";
+    font-weight: 700;
+    font-size: 72px;
+    margin: 0;
+    width: 450px;
+    line-height: 76px;
+}
+
+.view-home__container-logo {
+    position: absolute;
+    top: 100px;
+    left: 160px;
+}
+
+.pay-ticket {
+    bottom: 86px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+.view-home__container-girl{ 
+    position: absolute;
+    left: -40px;
+    bottom: -7px;
+    z-index: 3;
+}
+
+.view-home__container-group {
+    position: absolute;
+    z-index: 1;
+    bottom: 565px;
+    right: 18px;
+}
+
+
+.view-home__container-ballon1 {
+    position: absolute;
+    bottom: -58px;
+    left: 590px;
+}
+
+.view-home__container-ballon2 {
+    position: absolute;
+    bottom: 762px;
+    right: 712px;
+}
+
+.view-home__container-ballon3 {
+    position: absolute;
+    bottom: 643px;
+    left: 738px;
+}
+
+.view-home__container-ballon4 {
+    position: absolute;
+    bottom: -41px;
+    right: 22px;
+}
+
+.view-home__container-ballon5 {
+    position: absolute;
+    right: -40px;
+    bottom: 362px;
+}   
+
+.view-home__container-ballon6 {
+    position: absolute;
+    left: -22px;
+    bottom: 490px;
+}

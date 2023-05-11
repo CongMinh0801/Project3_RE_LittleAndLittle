@@ -1,0 +1,53 @@
+.view-contact {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: radial-gradient(97.91% 60.14% at 50% 50%, #FFDB7E 0%, #FF7A00 100%);
+}
+
+.view-contact__container {
+    background-image: url("../../assets/img/bg.png");
+    background-size: cover;
+    width: 1840px;
+    height: 962px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.view-contact__container-title {
+    position: absolute;
+    top: 65px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--white-color);
+    font-family: "Rowdies";
+    font-weight: 700;
+    font-size: 96px;
+    margin: 0;
+}
+
+
+.view-contact__container-img {
+    position: absolute;
+    left: -68px;
+    bottom: 139px;
+    z-index: 2;
+}
+
+.contact-form {
+    position: absolute;
+    left: 218px;
+    bottom: 141px;
+}
+
+.view-contact__container-tag {
+    position: absolute;
+    bottom: 141px;
+    right: 80px;
+}
+
+.tag-info {
+    margin-top: 32px;
+}
