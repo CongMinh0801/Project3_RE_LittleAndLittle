@@ -1,6 +1,9 @@
 .event {
+    margin-right: 28px;
     width: 356px;
     height: 500px;
+    min-width: 356px;
+    min-height: 500px;
     box-shadow: 4px 4px 45px rgba(109, 46, 0, 0.35);
     border-radius: 20px;
     overflow: hidden;

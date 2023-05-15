@@ -22,6 +22,9 @@
     display: flex;
     position: absolute;
     margin-top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 82px;
 }
 
 .pay-ticket__block1 {

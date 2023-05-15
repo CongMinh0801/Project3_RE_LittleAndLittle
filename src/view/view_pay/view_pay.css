@@ -1,0 +1,36 @@
+.view-pay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: radial-gradient(97.91% 60.14% at 50% 50%, #FFDB7E 0%, #FF7A00 100%);
+}
+
+.view-pay__container {
+    background-image: url("../../assets/img/bg.png");
+    background-size: cover;
+    width: 1840px;
+    height: 962px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.view-pay__container-title {
+    position: absolute;
+    top: 65px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--white-color);
+    font-family: "Rowdies";
+    font-weight: 700;
+    font-size: 96px;
+    margin: 0;
+}
+
+.view-pay__container-img {
+    position: absolute;
+    bottom: 97px;
+    left: -40px;
+    z-index: 2;
+}

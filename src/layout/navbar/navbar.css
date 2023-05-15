@@ -8,6 +8,7 @@
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 10;
 }
 
 
@@ -42,6 +43,7 @@
     color: var(--white-color);
     background-color: transparent;
     border: none;
+    cursor: pointer;
 }
 
 .navbar__btn-item.navbar-active {

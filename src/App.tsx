@@ -13,11 +13,15 @@ import { Event } from './layout/event/event';
 import { ViewContact } from './view/view_contact/view_contact';
 import { ViewEvent } from './view/view_event/view_event';
 import { ViewHome } from './view/view_home/view_home';
+import { ViewActive } from './view/view_active/view_active';
+import { ViewPay } from './view/view_pay/view_pay';
+import { ViewPaySuccess } from './view/view_pay-success/view_pay-success';
+import { EventInfo } from './layout/event_info/event_info';
 
 function App() {
   return (
     <div className="App">
-      <ViewHome/>
+      <ViewActive/>
     </div>
   );
 }

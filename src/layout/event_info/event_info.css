@@ -1,0 +1,99 @@
+.event-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1520px;
+    height: 624px;
+    background-color: #FDE8B3;
+    border-radius: 36px;
+    box-shadow: 0px 16px #FFCA7B;
+    box-sizing: border-box;
+}
+
+.event-info__container {
+    width: 1496px;
+    height: 600px;
+    background-color: #FFF6D4;
+    border: 3px dashed #FFB489;
+    border-radius: 32px;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding-top: 72px;
+}
+
+.event-info__container-col:nth-child(1) {
+    width: 412px;
+} 
+
+.event-info__container-col:nth-child(1) img{
+    margin-bottom: 36px;
+    width: 412px;
+    height: 337px;
+} 
+
+.event-info__container-col:nth-child(1) span{
+    margin-bottom: 12px;
+    height: 16px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.event-info__container-col-calendar-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 6px;
+    margin-bottom: 2px;
+    color: #FFB809;
+}
+
+.event-info__container-col-place {
+    font-size: 18px;
+    line-height: 26px;
+    color: #6C7272;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.event-info__container-col-price {
+    color: #FA7D09;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.event-info__container-col:nth-child(2),
+.event-info__container-col:nth-child(3),
+.event-info__container-col:nth-child(4) {
+    width: 288px;
+} 
+
+.event-info__container-col:nth-child(3) img{
+    width: 288px;
+    margin-bottom: 33px;
+    border-radius: 16px;
+}
+
+.event-info__container-col:nth-child(4) img{
+    width: 288px;
+    margin-top: 33px;
+    border-radius: 16px;
+} 
+
+
+.event-info__container-col:nth-child(2) p,
+.event-info__container-col:nth-child(3) p,
+.event-info__container-col:nth-child(4) p{
+    font-size: 18px;
+    line-height: 26px;
+    text-align: justify;
+    margin: 0;
+} 
+
+.event-info__container-col:nth-child(2) span {
+    color: #FA7D09;
+    font-size: 24px;
+    font-weight: 700;
+}
