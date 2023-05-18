@@ -74,6 +74,7 @@
     position: absolute;
     top: 50%;
     transform: translateY(30%);
+
 }
 
 .view-event__container-btn-icon {
@@ -92,8 +93,14 @@
 
 .view-event__container-btn1 {
     left: 80px;
+    cursor: pointer;
 }
 
 .view-event__container-btn2 {
     right: 80px;
+    cursor: pointer;
+}
+
+.view-event__container-hidden {
+    display: none;
 }

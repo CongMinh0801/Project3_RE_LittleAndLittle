@@ -2,6 +2,7 @@ import "./view_contact.css"
 import childImg from "../../assets/img/Alex_AR_Lay_Do.png"
 import { ContactForm } from "../../layout/contact_form/contact_form"
 import { TagInfo } from "../../layout/tag_info/tag_info"
+import { SendContactMessage } from "../../layout/send_contact_message/send_contact_message"
 
 export const ViewContact = () => {
     return (
@@ -16,6 +17,8 @@ export const ViewContact = () => {
                     <TagInfo title="Điện thoại" content="0375394573"/>
                 </div>
             </div>
+        
+        <SendContactMessage/>
         </div>
     )
 }

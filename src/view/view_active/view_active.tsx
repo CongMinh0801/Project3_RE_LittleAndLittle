@@ -12,9 +12,10 @@ export const ViewActive = () => {
     return (
         <div className="view-active">
             <Navbar/>
-            {selectedView == "Home" ? <ViewHome/>
+            { selectedView == "Home" ? <ViewHome/>
             : selectedView == "Events" ? <ViewEvent/>
-            : <ViewContact/>}
+            : <ViewContact/>
+            }
         </div>
     )
 }

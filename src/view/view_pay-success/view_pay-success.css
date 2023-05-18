@@ -2,7 +2,10 @@
     position: fixed;
     top: 0;
     left: 0;
+    bottom: 0;
+    right: 0;
     background: radial-gradient(97.91% 60.14% at 50% 50%, #FFDB7E 0%, #FF7A00 100%);
+    display: none;
 }
 
 .view-pay-success__container {
@@ -18,9 +21,9 @@
 
 .view-pay-success__container-title {
     position: absolute;
+    width: 100%;
     top: 65px;
-    left: 50%;
-    transform: translateX(-50%);
+    text-align: center;
     color: var(--white-color);
     font-family: "Rowdies";
     font-weight: 700;

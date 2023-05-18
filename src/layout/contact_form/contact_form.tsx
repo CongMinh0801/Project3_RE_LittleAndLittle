@@ -1,6 +1,11 @@
 import "./contact_form.css"
+import { SendContactMessage } from './../send_contact_message/send_contact_message';
 
 export const ContactForm = () => {
+    const handleShowMessage = () => {
+        document.querySelector(".send-contact-message-back")?.setAttribute("style","display:block;");
+    } 
+
     return (
         <div className="contact-form">
             <div className="contact-form__container">
@@ -27,7 +32,7 @@ export const ContactForm = () => {
                     <textarea defaultValue={""} placeholder="Lời nhắn"/>
                 </div>
                 <div className="contact-form__container-row">
-                    <button className="primary-btn contact-form__container-row-btn">Gửi liên hệ</button>
+                    <button onClick={()=>handleShowMessage()} className="primary-btn contact-form__container-row-btn">Gửi liên hệ</button>
                 </div>
             </div>
         </div>

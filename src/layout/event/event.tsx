@@ -1,6 +1,8 @@
 import "./event.css"
 import EventImg from "../../assets/img/Rectangle1.png"
 import { Calendar } from "react-feather"
+import { useDispatch } from "react-redux";
+import { setEventEnd, setEventName, setEventPlace, setEventPrice, setEventStart } from "../event_info/event_info_slice";
 
 interface EventProps {
     EventName: string;
@@ -11,6 +13,16 @@ interface EventProps {
 }
 
 export const Event = ({EventName, EventPlace, DateStart, DateEnd, EventPrice}:EventProps) => {
+    const dispatch = useDispatch();
+    const handleShowEventInfo = () => {
+        document.querySelector(".view-event__container-hidden")?.setAttribute("style","display:block;");
+        dispatch(setEventStart(DateStart))
+        dispatch(setEventEnd(DateEnd))
+        dispatch(setEventPlace(EventPlace))
+        dispatch(setEventPrice(EventPrice))
+        dispatch(setEventName(EventName))
+    }
+    
     return (
         <div className="event">
             <div className="event__img">
@@ -36,7 +48,7 @@ export const Event = ({EventName, EventPlace, DateStart, DateEnd, EventPrice}:Ev
                 <p className="event__content-price">
                     {EventPrice} VNĐ
                 </p>
-                <button className="btn primary-btn event__content-btn">Xem chi tiết</button>
+                <button onClick={()=>handleShowEventInfo()} className="btn primary-btn event__content-btn">Xem chi tiết</button>
             </div>
         </div>
     )

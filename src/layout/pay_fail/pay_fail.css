@@ -1,15 +1,23 @@
 .pay-fail {
     width: 472px;
     height: 262px;
-    position: relative;
     border-radius: 32px;
-    overflow: hidden;
     background-color: var(--white-color);
+    z-index: 20;
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 4px 4px 45px rgba(109, 46, 0, 0.35);
 }
+
 
 .pay-fail__header {
     height: 84px;
     background-color: #FF8B15;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
 }
 
 .pay-fail__message {

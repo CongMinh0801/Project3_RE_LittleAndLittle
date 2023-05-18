@@ -5,13 +5,15 @@ interface eventInfoState {
     endDate: string;
     place:string;
     price:string;
+    name:string;
 }
 
 const initialState: eventInfoState = {
-    startDate: "08/01/2002",
-    endDate: "17/07/2002",
-    place: "Đầm sen pack",
-    price: "250.000",
+    startDate: "",
+    endDate: "",
+    place: "",
+    price: "",
+    name: "",
 };
 
 export const eventInfoSlice = createSlice({
@@ -30,9 +32,12 @@ export const eventInfoSlice = createSlice({
     setEventPrice: (state, action) => {
         state.price = action.payload;
     },
+    setEventName: (state, action) => {
+      state.name = action.payload;
+  },
   },
 });
 
-export const { setEventStart, setEventEnd, setEventPlace, setEventPrice } = eventInfoSlice.actions;
+export const { setEventStart, setEventEnd, setEventPlace, setEventPrice, setEventName } = eventInfoSlice.actions;
 
 export default eventInfoSlice.reducer;
